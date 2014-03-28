@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<InternalClaim xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <ClaimId>1230000</ClaimId>
+  <OccurredAtEmployment>false</OccurredAtEmployment>
+  <CausedFromAutoAccident>true</CausedFromAutoAccident>
+  <AccidentDescription>Broke Left Arm</AccidentDescription>
+  <Extrinsics>
+    <ExtrinsicField>
+      <Name>HasLifeInsurance</Name>
+      <Value>true</Value>
+      <Type>bool</Type>
+    </ExtrinsicField>
+    <ExtrinsicField>
+      <Name>Notes</Name>
+      <Value>This is a sample note.</Value>
+      <Type>string</Type>
+    </ExtrinsicField>
+  </Extrinsics>
+  <Client>
+    <Name>SuperMedicalInsurace Inc.</Name>
+  </Client>
+  <PolicyHolder>
+    <FirstName>John</FirstName>
+    <LastName>Doe</LastName>
+    <MiddleName>Jay</MiddleName>
+    <DateOfBirth>1965-10-01T00:00:00</DateOfBirth>
+    <Address>
+      <Street>1 Apple Rd</Street>
+      <City>Chicago</City>
+      <State>IL</State>
+      <Zipcode>60630</Zipcode>
+    </Address>
+    <AccountNumber>1005000</AccountNumber>
+    <Status>EMPLOYED</Status>
+    <EffectiveDate>2013-03-01T00:00:00</EffectiveDate>
+    <Employer>
+      <Name>Walmart</Name>
+      <Address>
+        <Street>4650 W North Ave</Street>
+        <City>Chicago</City>
+        <State>IL</State>
+        <Zipcode>60639</Zipcode>
+      </Address>
+    </Employer>
+  </PolicyHolder>
+  <Patient>
+    <FirstName>Molly</FirstName>
+    <LastName>Doe</LastName>
+    <MiddleName>Sally</MiddleName>
+    <SocialSecurityNumber>330-01-0010</SocialSecurityNumber>
+    <DateOfBirth>1985-10-01T00:00:00</DateOfBirth>
+    <Address>
+      <Street>1 Apple Rd</Street>
+      <City>Chicago</City>
+      <State>IL</State>
+      <Zipcode>60630</Zipcode>
+    </Address>
+    <RelationShip>CHILD</RelationShip>
+    <IsEmployed>false</IsEmployed>
+    <WasEmployedPastYear>false</WasEmployedPastYear>
+    <HasAnotherPlan>false</HasAnotherPlan>
+    <HasMedicare>false</HasMedicare>
+    <EffectiveDate xsi:nil="true" />
+  </Patient>
+</InternalClaim>

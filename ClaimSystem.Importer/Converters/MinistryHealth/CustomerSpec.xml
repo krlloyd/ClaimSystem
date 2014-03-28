@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Claims xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <ClaimDocument>
+    <ClaimId>1230000</ClaimId>
+    <IsAutoAccident>true</IsAutoAccident>
+    <Description>Broke Left Arm</Description>
+    <Customer>
+      <First>Barney</First>
+      <Last>Fife</Last>
+      <Middle></Middle>
+      <DOB>10/01/1975</DOB>
+      <Address1>5 Cannible Rd</Address1>
+      <Address2></Address2>
+      <City>Green Bay</City>
+      <State>WI</State>
+      <PostalCode>54115</PostalCode>
+      <PolicyNumber>1005000</PolicyNumber>
+      <Status>EMPLOYED</Status>
+      <EffectiveDate>2013-03-01T00:00:00</EffectiveDate>
+      <Employer>Walmart</Employer>
+      <EmployerAddress1>4650 W North Ave</EmployerAddress1>
+      <EmployerCity>Chicago</EmployerCity>
+      <EmployerState>IL</EmployerState>
+      <EmployerPostal>60639</EmployerPostal>
+    </Customer>
+    <Patient>
+      <First>Sam</First>
+      <Last>Fife</Last>
+      <Middle>Sally</Middle>
+      <SSN>330-01-0010</SSN>
+      <DOB>1985-10-01T00:00:00</DOB>
+      <Address1>5 Cannible Rd</Address1>
+      <Address2></Address2>
+      <City>Green Bay</City>
+      <State>WI</State>
+      <PostalCode>54115</PostalCode>
+      <RelationShip>CHILD</RelationShip>
+      <IsEmployed>false</IsEmployed>
+      <Medicare>false</Medicare>
+      <EffectiveDate xsi:nil="true" />
+    </Patient>
+  </ClaimDocument>
+  <ClaimDocument>
+    <ClaimId>2000340</ClaimId>
+    <IsAutoAccident>true</IsAutoAccident>
+    <Description>Broke Right Leg</Description>
+    <Customer>
+      <First>Dan</First>
+      <Last>Patros</Last>
+      <Middle></Middle>
+      <DOB>10/01/1960</DOB>
+      <Address1>101 Apple Lane</Address1>
+      <Address2></Address2>
+      <City>Green Bay</City>
+      <State>WI</State>
+      <PostalCode>54115</PostalCode>
+      <PolicyNumber>1005000</PolicyNumber>
+      <Status>EMPLOYED</Status>
+      <EffectiveDate>2013-03-01T00:00:00</EffectiveDate>
+      <Employer>Walmart</Employer>
+      <EmployerAddress1>4650 W North Ave</EmployerAddress1>
+      <EmployerCity>Chicago</EmployerCity>
+      <EmployerState>IL</EmployerState>
+      <EmployerPostal>60639</EmployerPostal>
+    </Customer>
+  </ClaimDocument>
+</Claims>
+
+
+

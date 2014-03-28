@@ -1,0 +1,9 @@
+﻿Super Easy XML Parsing
+=======================================================================
+1. Open Visual Studios Command Prompt
+2. Run: xsd myFile.xml (This creates a xml schema file based on the xml file)
+3. Run: xsd myFile.xsd /c (This creates a class file based on the xml schema)
+4. You can not deserialize the customers xml file right into a class and map data
+   in the code very easily.
+
+ 
